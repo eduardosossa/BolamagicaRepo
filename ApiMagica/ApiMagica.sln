@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaMagica", "BolaMagica\BolaMagica.csproj", "{670C6213-046E-4C95-91B9-37F7BA0D856F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{670C6213-046E-4C95-91B9-37F7BA0D856F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670C6213-046E-4C95-91B9-37F7BA0D856F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670C6213-046E-4C95-91B9-37F7BA0D856F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670C6213-046E-4C95-91B9-37F7BA0D856F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF841C72-2389-4D6F-BFAA-40D1F28FAF41}
+	EndGlobalSection
+EndGlobal
