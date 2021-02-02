@@ -22,6 +22,21 @@ namespace BolaMagica.Controllers
             return db.Balls;
         }
 
+        // GET: Luck
+        [ResponseType(typeof(Ball))]
+        [Route("Luck")]
+        public IHttpActionResult GetLuck()
+        {
+            var random = new Random();
+            int id = random.Next(1,db.Balls.Count()+1);
+            Ball ball = db.Balls.Find(id);
+            if (ball == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(ball);
+        }
         // GET: api/Balls/5
         [ResponseType(typeof(Ball))]
         public IHttpActionResult GetBall(int id)
@@ -34,7 +49,6 @@ namespace BolaMagica.Controllers
 
             return Ok(ball);
         }
-
         // PUT: api/Balls/5
         [ResponseType(typeof(void))]
         public IHttpActionResult PutBall(int id, Ball ball)
